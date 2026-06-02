@@ -1,0 +1,119 @@
+<svg width="1000" height="280" viewBox="0 0 1000 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Vishal Kumar - AI Engineer</title>
+  <desc id="desc">Animated GitHub profile banner for Vishal Kumar, focused on agentic AI, RAG, and production ML systems.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07100E"/>
+      <stop offset="0.45" stop-color="#0B0D0F"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6EE7C8" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#6EE7C8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8AB4FF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="140" y1="42" x2="860" y2="238" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6EE7C8"/>
+      <stop offset="0.55" stop-color="#8AB4FF"/>
+      <stop offset="1" stop-color="#F4C95D"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.43 0 0 0 0 0.91 0 0 0 0 0.78 0 0 0 0.55 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1000" height="280" rx="22" fill="url(#bg)"/>
+  <rect width="1000" height="280" rx="22" fill="url(#grid)"/>
+
+  <g opacity="0.18">
+    <circle cx="820" cy="70" r="155" fill="#8AB4FF">
+      <animate attributeName="r" values="130;170;130" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.10;0.22;0.10" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="175" cy="215" r="120" fill="#6EE7C8">
+      <animate attributeName="r" values="105;138;105" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.10;0.20;0.10" dur="7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g filter="url(#glow)">
+    <path d="M104 216 C244 132 354 128 500 188 C650 248 760 206 896 84" stroke="url(#stroke)" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="12 16">
+      <animate attributeName="stroke-dashoffset" values="0;-112" dur="7s" repeatCount="indefinite"/>
+    </path>
+    <path d="M112 76 C262 205 390 222 510 186 C640 145 742 134 884 204" stroke="#6EE7C8" stroke-opacity="0.32" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="6 14">
+      <animate attributeName="stroke-dashoffset" values="0;120" dur="8.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g>
+    <rect x="110" y="52" width="780" height="176" rx="18" fill="#0B0D0F" fill-opacity="0.72" stroke="#26323C"/>
+    <rect x="110" y="52" width="780" height="176" rx="18" stroke="url(#stroke)" stroke-opacity="0.35"/>
+    <rect x="110" y="52" width="780" height="176" rx="18" fill="none" stroke="#6EE7C8" stroke-opacity="0.18">
+      <animate attributeName="stroke-opacity" values="0.08;0.32;0.08" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="332" y="72" width="480" height="96" rx="16" fill="#0B0D0F" fill-opacity="0.86"/>
+  </g>
+
+  <g font-family="'Geist Mono', 'SFMono-Regular', Consolas, monospace" font-size="12">
+    <text x="142" y="88" fill="#6EE7C8">agent.system.boot()</text>
+    <text x="142" y="111" fill="#8AB4FF">status: production</text>
+    <text x="142" y="134" fill="#F4C95D">proof: ranked</text>
+    <rect x="142" y="151" width="10" height="18" fill="#6EE7C8">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g text-anchor="middle">
+    <text x="570" y="122" fill="#F4F7FA" font-family="'Geist', 'Inter', Arial, sans-serif" font-size="46" font-weight="700">Vishal Kumar</text>
+    <text x="570" y="154" fill="#A3ABB4" font-family="'Geist Mono', 'SFMono-Regular', Consolas, monospace" font-size="15">AI Engineer / Agentic AI / RAG / Production ML</text>
+  </g>
+
+  <g font-family="'Geist Mono', 'SFMono-Regular', Consolas, monospace" font-size="12" fill="#DCE5EC">
+    <g>
+      <rect x="296" y="190" width="118" height="30" rx="15" fill="#111A20" stroke="#26323C"/>
+      <text x="355" y="210" text-anchor="middle">agents</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="4s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="429" y="190" width="78" height="30" rx="15" fill="#111A20" stroke="#26323C"/>
+      <text x="468" y="210" text-anchor="middle">RAG</text>
+      <animateTransform attributeName="transform" type="translate" values="0 -3;0 2;0 -3" dur="4.8s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="522" y="190" width="112" height="30" rx="15" fill="#111A20" stroke="#26323C"/>
+      <text x="578" y="210" text-anchor="middle">applied ML</text>
+      <animateTransform attributeName="transform" type="translate" values="0 1;0 -4;0 1" dur="5.4s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="649" y="190" width="88" height="30" rx="15" fill="#111A20" stroke="#26323C"/>
+      <text x="693" y="210" text-anchor="middle">shipping</text>
+      <animateTransform attributeName="transform" type="translate" values="0 -2;0 3;0 -2" dur="4.4s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle cx="184" cy="201" r="5" fill="#6EE7C8">
+      <animate attributeName="cx" values="184;322;184" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="201;172;201" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="812" cy="84" r="5" fill="#8AB4FF">
+      <animate attributeName="cx" values="812;676;812" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="84;165;84" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="790" cy="116" r="4" fill="#F4C95D">
+      <animate attributeName="r" values="3;7;3" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <rect x="0" y="0" width="1000" height="280" rx="22" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+</svg>
