@@ -8,7 +8,7 @@
 
 ## Vishal Kumar
 
-AI engineer building production-oriented AI systems across agents, RAG, clinical ML, streaming inference, and LLM evaluation.
+AI engineer building production-oriented AI systems across agents, RAG, Production ML, streaming inference, and LLM evaluation.
 
 I am a B.Tech CSE student at IIIT Nagpur, graduating in 2027. My work is focused on systems that can be evaluated, deployed, and inspected: multi-agent workflows, grounded retrieval, fine-tuning pipelines, safety guardrails, and low-latency ML inference.
 
@@ -29,7 +29,7 @@ I am a B.Tech CSE student at IIIT Nagpur, graduating in 2027. My work is focused
 | Project | Scope | Stack | Links |
 |---|---|---|---|
 | CrisisOps | Multi-agent SRE training environment with procedural incidents, tool-based agents, automated judging, and RL-style reward design. | Python, LangGraph, OpenEnv, GRPO, QLoRA, FastAPI, Hugging Face | [Repo](https://github.com/Vk2245/CrisisOps-Multi-Agent-SRE-Training-via-OpenEnv), [Live](https://huggingface.co/spaces/Vk224/crisisops-env) |
-| Triagegeist | Clinical triage prediction system with hierarchical safety logic, 200+ engineered clinical features, and gradient-boosted ensemble modeling. | XGBoost, LightGBM, CatBoost, clinical ML, feature engineering | [Repo](https://github.com/Vk2245/Triagegeist-vk2245) |
+| Triagegeist | Clinical triage prediction system with hierarchical safety logic, 200+ engineered clinical features, and gradient-boosted ensemble modeling. | XGBoost, LightGBM, CatBoost, Production ML, feature engineering | [Repo](https://github.com/Vk2245/Triagegeist-vk2245) |
 | LOB Predictorum | Streaming-native limit order book prediction system built after diagnosing batch-to-live degradation. | PyTorch, BiGRU, TimeMixer, InfoNCE SSL, ONNX, INT8 quantization | [Repo](https://github.com/Vk2245/-Vk224-Wunder-Challenge-LOB-Predictorium) |
 | WasteWatch AI | AI-native civic reporting platform with vision classification, model fallback, API integrations, and bilingual voice workflows. | Gemini, Groq, FastAPI, React, voice AI | [Repo](https://github.com/Vk2245/WasteWatchAI), [Live](https://wastewatch224.onrender.com) |
 | CivicPath | Non-partisan election assistant for Indian voters using multilingual guidance, fact checking, and Google services. | Gemini, Google Cloud Run, Maps, Speech, multilingual NLP | [Repo](https://github.com/Vk2245/CivicPath-AI-India), [Live](https://civicpath-85167217171.us-central1.run.app) |
@@ -39,7 +39,7 @@ I am a B.Tech CSE student at IIIT Nagpur, graduating in 2027. My work is focused
 
 **AI systems:** agent orchestration, tool use, RAG, prompt contracts, hallucination controls, LLM evaluation, fine-tuning.
 
-**ML and research:** clinical ML, time-series modeling, ranking metrics, self-supervised learning, model compression, ablation-driven iteration.
+**ML and research:** Production ML, time-series modeling, ranking metrics, self-supervised learning, model compression, ablation-driven iteration.
 
 **Production:** FastAPI services, React interfaces, Dockerized apps, cloud deployment, API integrations, streaming inference, observability-minded design.
 
